@@ -1,9 +1,4 @@
-diff --git a/styles.css b/styles.css
-new file mode 100644
-index 0000000000000000000000000000000000000000..d25cc5b75ca04baca24b5c742a091497a948c69f
---- /dev/null
-+++ b/styles.css
-@@ -0,0 +1,932 @@
+
 +:root {
 +  --yellow-100: #fff6cf;
 +  --yellow-200: #ffe680;
