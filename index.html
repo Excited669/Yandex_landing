@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Работа курьером — яркий старт в доставке</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero" id="top">
+    <div class="hero__overlay"></div>
+    <nav class="nav">
+      <a href="#top" class="nav__logo" aria-label="Главная страница">
+        <span>Courier<span class="nav__accent">Job</span></span>
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a data-scroll href="#benefits">Преимущества</a></li>
+        <li><a data-scroll href="#conditions">Условия</a></li>
+        <li><a data-scroll href="#steps">Как начать</a></li>
+        <li><a data-scroll href="#income">Доход</a></li>
+        <li><a data-scroll href="#apply">Откликнуться</a></li>
+      </ul>
+      <a class="nav__cta" data-scroll href="#apply">Стать курьером</a>
+    </nav>
+
+    <div class="hero__content">
+      <div class="hero__text">
+        <p class="hero__tag">Яркая карьера курьера</p>
+        <h1>Работа курьером в сервисе доставки</h1>
+        <p class="hero__description">
+          Стабильный доход, свободный график и поддержка 24/7. Присоединяйтесь к команде курьеров и доставляйте радость клиентам в своём городе.
+        </p>
+        <div class="hero__actions">
+          <a class="button button--primary" data-scroll href="#apply">Заполнить анкету</a>
+          <a class="button button--ghost" data-scroll href="#conditions">Узнать условия</a>
+        </div>
+        <ul class="hero__highlights" aria-label="Преимущества работы курьером">
+          <li>Выплаты каждую неделю</li>
+          <li>Бонусы за часы пик</li>
+          <li>Компенсация за топливо и связь</li>
+        </ul>
+      </div>
+      <div class="hero__card" role="presentation">
+        <div class="hero__card-inner">
+          <p class="hero__card-title">Средний доход</p>
+          <p class="hero__card-value">от 4 500 ₽ в день</p>
+          <p class="hero__card-note">+ чаевые клиентов и поощрения</p>
+          <div class="hero__stats">
+            <div>
+              <span class="hero__stats-value">280+</span>
+              <span class="hero__stats-label">партнёров подключено</span>
+            </div>
+            <div>
+              <span class="hero__stats-value">1200</span>
+              <span class="hero__stats-label">активных курьеров</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="benefits" id="benefits">
+      <div class="section-heading">
+        <p class="section-heading__label">Почему это выгодно</p>
+        <h2>Выбирайте работу, которая подстраивается под вас</h2>
+      </div>
+      <div class="benefits__grid">
+        <article class="benefit-card">
+          <h3>Свободный график</h3>
+          <p>Планируйте смены так, как удобно именно вам. Можно совмещать с учёбой или основной работой.</p>
+        </article>
+        <article class="benefit-card">
+          <h3>Прозрачные выплаты</h3>
+          <p>Оплата за каждый заказ сразу в приложении. Дополнительные бонусы за выходы в часы пик и в плохую погоду.</p>
+        </article>
+        <article class="benefit-card">
+          <h3>Поддержка 24/7</h3>
+          <p>Служба поддержки на связи в любое время. Помогаем с вопросами по заказам, оплате и техническим моментам.</p>
+        </article>
+        <article class="benefit-card">
+          <h3>Старт без вложений</h3>
+          <p>Выдаём брендированную экипировку и термосумку. Компенсируем расходы на топливо и мобильную связь.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="highlight">
+      <div class="highlight__content">
+        <h2>Работайте в любимом районе и получайте премии за качество</h2>
+        <p>Система рейтингов поощряет ответственных курьеров. Выполняйте заказы вовремя и получайте дополнительные выплаты и доступ к приоритетным слотам.</p>
+      </div>
+      <ul class="highlight__stats" aria-label="Ключевые показатели сервиса">
+        <li>
+          <span class="highlight__value">95%</span>
+          <span class="highlight__label">средняя удовлетворённость клиентов</span>
+        </li>
+        <li>
+          <span class="highlight__value">3 мин</span>
+          <span class="highlight__label">время поддержки на ответ</span>
+        </li>
+        <li>
+          <span class="highlight__value">+20%</span>
+          <span class="highlight__label">премии за заказы в час пик</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="conditions" id="conditions">
+      <div class="section-heading">
+        <p class="section-heading__label">Что потребуется</p>
+        <h2>Условия сотрудничества и базовые требования</h2>
+      </div>
+      <div class="conditions__grid">
+        <div class="conditions__column">
+          <h3>Условия</h3>
+          <ul>
+            <li>Выплаты каждую неделю на банковскую карту.</li>
+            <li>Гибкий выбор смен — от 4 часов в день.</li>
+            <li>Компенсация за пробег и мобильную связь.</li>
+            <li>Бонусы и надбавки за высокий рейтинг.</li>
+            <li>Официальный договор и прозрачные отчёты.</li>
+          </ul>
+        </div>
+        <div class="conditions__column">
+          <h3>Требования</h3>
+          <ul>
+            <li>Возраст от 18 лет.</li>
+            <li>Смартфон на Android или iOS.</li>
+            <li>Аккуратность и вежливость при общении с клиентами.</li>
+            <li>Наличие велосипеда, самоката или автомобиля приветствуется.</li>
+            <li>Готовность соблюдать стандарты сервиса.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps" id="steps">
+      <div class="section-heading">
+        <p class="section-heading__label">Быстрый старт</p>
+        <h2>Четыре шага до первой смены</h2>
+      </div>
+      <ol class="steps__list">
+        <li>
+          <div class="steps__number">1</div>
+          <div class="steps__content">
+            <h3>Оставьте заявку</h3>
+            <p>Заполните анкету на сайте и выберите удобный способ связи. Мы свяжемся с вами в течение рабочего дня.</p>
+          </div>
+        </li>
+        <li>
+          <div class="steps__number">2</div>
+          <div class="steps__content">
+            <h3>Пройдите онлайн-обучение</h3>
+            <p>Изучите короткие материалы о сервисе и сдайте тест. Это поможет быстро влиться в работу.</p>
+          </div>
+        </li>
+        <li>
+          <div class="steps__number">3</div>
+          <div class="steps__content">
+            <h3>Получите экипировку</h3>
+            <p>Заберите сумку и форму на пункте выдачи или закажите доставку на дом.</p>
+          </div>
+        </li>
+        <li>
+          <div class="steps__number">4</div>
+          <div class="steps__content">
+            <h3>Выходите на линию</h3>
+            <p>Выбирайте смены в приложении, получайте заказы и зарабатывайте в своём темпе.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="income" id="income">
+      <div class="section-heading">
+        <p class="section-heading__label">Посчитайте доход</p>
+        <h2>Калькулятор заработка курьера</h2>
+      </div>
+      <div class="income__content">
+        <form class="calculator" aria-label="Калькулятор дохода курьера">
+          <label>
+            Количество заказов в день
+            <input type="number" id="orders" min="0" value="12" />
+          </label>
+          <label>
+            Средняя оплата за заказ, ₽
+            <input type="number" id="rate" min="0" value="180" />
+          </label>
+          <label>
+            Количество рабочих дней в неделю
+            <input type="number" id="days" min="1" max="7" value="5" />
+          </label>
+          <label>
+            Дополнительные бонусы в неделю, ₽
+            <input type="number" id="bonus" min="0" value="1500" />
+          </label>
+          <p class="calculator__hint">Результат носит справочный характер и помогает оценить потенциальный доход.</p>
+        </form>
+        <div class="calculator__result" role="status" aria-live="polite">
+          <p class="calculator__title">Прогноз заработка</p>
+          <p class="calculator__value" id="weekly-income">0 ₽ в неделю</p>
+          <p class="calculator__value" id="monthly-income">0 ₽ в месяц</p>
+          <p class="calculator__note">Фактический доход зависит от количества заказов, чаевых и бонусных программ партнёра.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="section-heading">
+        <p class="section-heading__label">Опыт курьеров</p>
+        <h2>Что говорят сотрудники сервиса</h2>
+      </div>
+      <div class="testimonials__grid">
+        <figure class="testimonial">
+          <blockquote>
+            «Мне нравится, что можно гибко выбирать смены. Обычно работаю по вечерам и всё равно получаю достойный доход. Клиенты часто оставляют чаевые.»
+          </blockquote>
+          <figcaption>Антон, 24 года</figcaption>
+        </figure>
+        <figure class="testimonial">
+          <blockquote>
+            «Поддержка всегда помогает, если возникли вопросы. За быстрые доставки регулярно получаю бонусы и повышенный коэффициент.»
+          </blockquote>
+          <figcaption>Екатерина, 28 лет</figcaption>
+        </figure>
+        <figure class="testimonial">
+          <blockquote>
+            «Работаю курьером на велосипеде. Это отличная активность и возможность заработать больше летом. Приложение показывает самые удобные маршруты.»
+          </blockquote>
+          <figcaption>Даниил, 31 год</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="section-heading">
+        <p class="section-heading__label">Вопросы</p>
+        <h2>Часто задаваемые вопросы</h2>
+      </div>
+      <div class="faq__list">
+        <details>
+          <summary>Нужно ли иметь личный транспорт?</summary>
+          <p>Предпочтительно иметь велосипед, самокат или автомобиль, но можно работать пешим курьером. Мы поможем подобрать формат в зависимости от района.</p>
+        </details>
+        <details>
+          <summary>Как быстро происходит подключение?</summary>
+          <p>После подачи заявки менеджер свяжется в течение 24 часов. После онлайн-обучения и подписания документов вы сможете выйти на линию уже через 1–2 дня.</p>
+        </details>
+        <details>
+          <summary>Какие документы нужны?</summary>
+          <p>Паспорт гражданина РФ, ИНН и СНИЛС. Если есть водительское удостоверение — возьмите его для оформления доставки на авто.</p>
+        </details>
+        <details>
+          <summary>Есть ли штрафы?</summary>
+          <p>Штрафы применяются только за серьёзные нарушения: порчу заказов, постоянные опоздания или игнорирование стандартов сервиса. При соблюдении правил вы получаете дополнительные бонусы.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="apply" id="apply">
+      <div class="apply__info">
+        <h2>Заполните анкету и начинайте зарабатывать</h2>
+        <p>Укажите ваши контакты, чтобы менеджер связался и рассказал подробности. Мы поможем выбрать удобный формат доставки и расскажем о действующих бонусных программах.</p>
+        <ul class="apply__list">
+          <li>Помощь при подключении к сервису и настройке приложения.</li>
+          <li>Актуальные смены в районах с повышенным спросом.</li>
+          <li>Поддержка с документами и налоговыми вопросами.</li>
+        </ul>
+      </div>
+      <form class="apply__form" aria-label="Форма отклика на вакансию курьера">
+        <label>
+          Имя
+          <input type="text" name="name" placeholder="Введите ваше имя" required />
+        </label>
+        <label>
+          Телефон
+          <input type="tel" name="phone" placeholder="+7 (999) 123-45-67" required />
+        </label>
+        <label>
+          Город
+          <input type="text" name="city" placeholder="Например, Москва" required />
+        </label>
+        <label>
+          Удобный способ связи
+          <select name="contact" required>
+            <option value="">Выберите вариант</option>
+            <option>Звонок</option>
+            <option>Telegram</option>
+            <option>WhatsApp</option>
+          </select>
+        </label>
+        <label>
+          Комментарий
+          <textarea name="message" rows="4" placeholder="Расскажите о своём опыте или задайте вопрос"></textarea>
+        </label>
+        <button type="submit" class="button button--primary">Отправить заявку</button>
+        <p class="apply__privacy">Нажимая кнопку, вы соглашаетесь на обработку персональных данных и получение информационных сообщений.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <div>
+        <a href="#top" class="footer__logo">Courier<span class="nav__accent">Job</span></a>
+        <p class="footer__text">Партнёрская программа для курьеров. Присоединяйтесь и получайте стабильный доход уже сегодня.</p>
+      </div>
+      <div>
+        <p class="footer__title">Контакты</p>
+        <a href="tel:+78001234567">8 800 123-45-67</a>
+        <a href="mailto:hello@courier-job.ru">hello@courier-job.ru</a>
+        <p>Работаем ежедневно с 09:00 до 21:00</p>
+      </div>
+      <div>
+        <p class="footer__title">Навигация</p>
+        <a data-scroll href="#benefits">Преимущества</a>
+        <a data-scroll href="#conditions">Условия</a>
+        <a data-scroll href="#income">Доход</a>
+        <a data-scroll href="#apply">Анкета</a>
+      </div>
+    </div>
+    <p class="footer__legal">© 2024 CourierJob. Все права защищены. Информация на сайте не является публичной офертой.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
